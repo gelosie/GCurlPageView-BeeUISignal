@@ -16,8 +16,142 @@
 		98D30CCB16E0410E0090E006 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30CCA16E0410E0090E006 /* Default.png */; };
 		98D30CCD16E0410E0090E006 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30CCC16E0410E0090E006 /* Default@2x.png */; };
 		98D30CCF16E0410E0090E006 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30CCE16E0410E0090E006 /* Default-568h@2x.png */; };
-		98D30CD816E041390090E006 /* GCurlPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CD716E041390090E006 /* GCurlPageView.m */; };
 		98D30CDB16E041410090E006 /* CatelogBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CDA16E041410090E006 /* CatelogBoard.m */; };
+		98D30E6C16E042050090E006 /* ASIHTTPRequest+Bee.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CE016E042040090E006 /* ASIHTTPRequest+Bee.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E6D16E042050090E006 /* Bee_Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CE216E042040090E006 /* Bee_Debug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E6E16E042050090E006 /* Bee_DebugCrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CE416E042040090E006 /* Bee_DebugCrashReporter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E6F16E042050090E006 /* Bee_DebugDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CE616E042040090E006 /* Bee_DebugDashBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7016E042050090E006 /* Bee_DebugDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CE816E042040090E006 /* Bee_DebugDetailView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7116E042050090E006 /* Bee_DebugHeatmapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CEA16E042040090E006 /* Bee_DebugHeatmapModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7216E042050090E006 /* Bee_DebugMemoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CEC16E042040090E006 /* Bee_DebugMemoryModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7316E042050090E006 /* Bee_DebugMessageBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CEE16E042040090E006 /* Bee_DebugMessageBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7416E042050090E006 /* Bee_DebugMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CF016E042040090E006 /* Bee_DebugMessageModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7516E042050090E006 /* Bee_DebugNetworkBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CF216E042040090E006 /* Bee_DebugNetworkBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7616E042050090E006 /* Bee_DebugNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CF416E042040090E006 /* Bee_DebugNetworkModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7716E042050090E006 /* Bee_DebugPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CF616E042040090E006 /* Bee_DebugPieView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7816E042050090E006 /* Bee_DebugPlotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CF816E042040090E006 /* Bee_DebugPlotsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7916E042050090E006 /* Bee_DebugSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CFA16E042040090E006 /* Bee_DebugSampleView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7A16E042050090E006 /* Bee_DebugSandboxBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CFC16E042040090E006 /* Bee_DebugSandboxBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7B16E042050090E006 /* Bee_DebugUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30CFE16E042040090E006 /* Bee_DebugUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7C16E042050090E006 /* Bee_DebugViewBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D0016E042040090E006 /* Bee_DebugViewBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7D16E042050090E006 /* Bee_DebugViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D0216E042040090E006 /* Bee_DebugViewModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7E16E042050090E006 /* Bee_DebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D0416E042040090E006 /* Bee_DebugWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E7F16E042050090E006 /* bug@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0516E042040090E006 /* bug@2x.png */; };
+		98D30E8016E042050090E006 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0616E042040090E006 /* close@2x.png */; };
+		98D30E8116E042050090E006 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0716E042040090E006 /* file@2x.png */; };
+		98D30E8216E042050090E006 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0816E042040090E006 /* folder@2x.png */; };
+		98D30E8316E042050090E006 /* heat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0916E042040090E006 /* heat@2x.png */; };
+		98D30E8416E042050090E006 /* tap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D30D0A16E042040090E006 /* tap@2x.png */; };
+		98D30E8516E042050090E006 /* Bee_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1216E042040090E006 /* Bee_Foundation.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8616E042050090E006 /* Bee_Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1416E042040090E006 /* Bee_Log.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8716E042050090E006 /* Bee_Performance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1616E042040090E006 /* Bee_Performance.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8816E042050090E006 /* Bee_Runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1816E042040090E006 /* Bee_Runtime.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8916E042050090E006 /* Bee_Sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1A16E042040090E006 /* Bee_Sandbox.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8A16E042050090E006 /* Bee_Singleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1C16E042040090E006 /* Bee_Singleton.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8B16E042050090E006 /* Bee_SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D1E16E042040090E006 /* Bee_SystemInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8C16E042050090E006 /* Bee_Thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2016E042040090E006 /* Bee_Thread.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8D16E042050090E006 /* NSArray+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2316E042040090E006 /* NSArray+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8E16E042050090E006 /* NSData+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2516E042040090E006 /* NSData+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E8F16E042050090E006 /* NSDate+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2716E042040090E006 /* NSDate+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9016E042050090E006 /* NSDictionary+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2916E042040090E006 /* NSDictionary+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9116E042050090E006 /* NSNumber+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2B16E042040090E006 /* NSNumber+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9216E042050090E006 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2D16E042040090E006 /* NSObject+BeeNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9316E042050090E006 /* NSObject+BeeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D2F16E042040090E006 /* NSObject+BeeProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9416E042050090E006 /* NSObject+BeeTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3116E042040090E006 /* NSObject+BeeTicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9516E042050090E006 /* NSObject+BeeTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3316E042040090E006 /* NSObject+BeeTypeConversion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9616E042050090E006 /* NSString+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3516E042040090E006 /* NSString+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9716E042050090E006 /* Bee_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3816E042040090E006 /* Bee_Network.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9816E042050090E006 /* Bee_Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3A16E042040090E006 /* Bee_Request.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9916E042050090E006 /* Bee_RequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3C16E042040090E006 /* Bee_RequestQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9A16E042050090E006 /* NSObject+BeeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D3F16E042040090E006 /* NSObject+BeeRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9B16E042050090E006 /* Bee_ActiveBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4216E042040090E006 /* Bee_ActiveBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9C16E042050090E006 /* Bee_ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4416E042040090E006 /* Bee_ActiveRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9D16E042050090E006 /* Bee_Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4616E042040090E006 /* Bee_Cache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9E16E042050090E006 /* Bee_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4816E042040090E006 /* Bee_Database.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30E9F16E042050090E006 /* Bee_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4A16E042040090E006 /* Bee_Keychain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA016E042050090E006 /* Bee_Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4C16E042040090E006 /* Bee_Storage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA116E042050090E006 /* NSObject+BeeDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D4F16E042040090E006 /* NSObject+BeeDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA216E042050090E006 /* NSObject+BeeKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5116E042040090E006 /* NSObject+BeeKeychain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA316E042050090E006 /* Bee_Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5616E042040090E006 /* Bee_Controller.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA416E042050090E006 /* Bee_Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5816E042040090E006 /* Bee_Message.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA516E042050090E006 /* Bee_MessageQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5A16E042040090E006 /* Bee_MessageQueue.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA616E042050090E006 /* BeeMessage+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5D16E042040090E006 /* BeeMessage+ActiveRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA716E042050090E006 /* BeeMessage+HTTP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D5F16E042040090E006 /* BeeMessage+HTTP.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA816E042050090E006 /* BeeMessage+JSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6116E042040090E006 /* BeeMessage+JSON.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EA916E042050090E006 /* BeeMessage+XML.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6316E042040090E006 /* BeeMessage+XML.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAA16E042050090E006 /* NSObject+BeeMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6516E042040090E006 /* NSObject+BeeMessage.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAB16E042050090E006 /* Bee_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6816E042040090E006 /* Bee_Model.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAC16E042050090E006 /* Bee_UIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6B16E042040090E006 /* Bee_UIActionSheet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAD16E042050090E006 /* Bee_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6D16E042040090E006 /* Bee_UIActivityIndicatorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAE16E042050090E006 /* Bee_UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D6F16E042040090E006 /* Bee_UIAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EAF16E042050090E006 /* Bee_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7116E042040090E006 /* Bee_UIButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB016E042050090E006 /* Bee_UIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7316E042040090E006 /* Bee_UIDatePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB116E042050090E006 /* Bee_UIGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7516E042040090E006 /* Bee_UIGridCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB216E042050090E006 /* Bee_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7716E042040090E006 /* Bee_UIImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB316E042050090E006 /* Bee_UIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7916E042040090E006 /* Bee_UIKeyboard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB416E042050090E006 /* Bee_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7B16E042040090E006 /* Bee_UILabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB516E042050090E006 /* Bee_UIOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7D16E042040090E006 /* Bee_UIOrientation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB616E042050090E006 /* Bee_UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D7F16E042040090E006 /* Bee_UIPageControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB716E042050090E006 /* Bee_UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8116E042040090E006 /* Bee_UIProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB816E042050090E006 /* Bee_UIPullLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8316E042040090E006 /* Bee_UIPullLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EB916E042050090E006 /* Bee_UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8516E042040090E006 /* Bee_UIScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBA16E042050090E006 /* Bee_UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8716E042040090E006 /* Bee_UISegmentedControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBB16E042050090E006 /* Bee_UISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8916E042040090E006 /* Bee_UISignal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBC16E042050090E006 /* Bee_UITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8B16E042040090E006 /* Bee_UITabBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBD16E042050090E006 /* Bee_UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8D16E042040090E006 /* Bee_UITextField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBE16E042050090E006 /* Bee_UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D8F16E042040090E006 /* Bee_UITextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EBF16E042050090E006 /* Bee_UITipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9116E042040090E006 /* Bee_UITipsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC016E042050090E006 /* Bee_UIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9316E042040090E006 /* Bee_UIWebView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC116E042050090E006 /* Bee_UIZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9516E042040090E006 /* Bee_UIZoomView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC216E042050090E006 /* Bee_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9716E042040090E006 /* Bee_View.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC316E042050090E006 /* CGRect+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9A16E042040090E006 /* CGRect+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC416E042050090E006 /* UIColor+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9C16E042040090E006 /* UIColor+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC516E042050090E006 /* UIFont+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30D9E16E042040090E006 /* UIFont+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC616E042050090E006 /* UIImage+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DA016E042040090E006 /* UIImage+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC716E042050090E006 /* UIView+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DA216E042040090E006 /* UIView+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC816E042050090E006 /* UIView+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DA416E042040090E006 /* UIView+BeeUISignal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30EC916E042050090E006 /* UIView+HoldGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DA616E042040090E006 /* UIView+HoldGesture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECA16E042050090E006 /* UIView+PanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DA816E042040090E006 /* UIView+PanGesture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECB16E042050090E006 /* UIView+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DAA16E042040090E006 /* UIView+SwipeGesture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECC16E042050090E006 /* UIView+TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DAC16E042040090E006 /* UIView+TapGesture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECD16E042050090E006 /* Bee_UIBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DAF16E042040090E006 /* Bee_UIBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECE16E042050090E006 /* Bee_UIStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DB116E042040090E006 /* Bee_UIStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ECF16E042050090E006 /* Bee_UIStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DB316E042040090E006 /* Bee_UIStackGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED016E042050090E006 /* Bee_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DB516E042040090E006 /* Bee_ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED116E042050090E006 /* UIViewController+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DB816E042040090E006 /* UIViewController+BeeExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED216E042050090E006 /* UIViewController+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DBA16E042040090E006 /* UIViewController+BeeUISignal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED316E042050090E006 /* UIViewController+UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DBC16E042040090E006 /* UIViewController+UINavigationBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED516E042050090E006 /* Bee_UICameraBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DC116E042040090E006 /* Bee_UICameraBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED616E042050090E006 /* Bee_UIFlowBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DC316E042040090E006 /* Bee_UIFlowBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED716E042050090E006 /* Bee_UITableBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DC516E042040090E006 /* Bee_UITableBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED816E042050090E006 /* Bee_UIWebBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DC716E042040090E006 /* Bee_UIWebBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30ED916E042050090E006 /* Bee_UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30DCA16E042040090E006 /* Bee_UnitTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2416E042050090E006 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E3C16E042050090E006 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2516E042050090E006 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E3F16E042050090E006 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2616E042050090E006 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4116E042050090E006 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2716E042050090E006 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4316E042050090E006 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2816E042050090E006 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4516E042050090E006 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2916E042050090E006 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4716E042050090E006 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2A16E042050090E006 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4B16E042050090E006 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2B16E042050090E006 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E4D16E042050090E006 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2C16E042050090E006 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5116E042050090E006 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2D16E042050090E006 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5316E042050090E006 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2E16E042050090E006 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5516E042050090E006 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F2F16E042050090E006 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5716E042050090E006 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F3016E042050090E006 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5916E042050090E006 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F3116E042050090E006 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5C16E042050090E006 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F3216E042050090E006 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30E5F16E042050090E006 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98D30F4416E043630090E006 /* GCurlPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D30F4316E043630090E006 /* GCurlPageView.m */; };
+		98D30F4616E044060090E006 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4516E044060090E006 /* libz.dylib */; };
+		98D30F4816E0440B0090E006 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4716E0440B0090E006 /* libsqlite3.dylib */; };
+		98D30F4A16E044130090E006 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4916E044130090E006 /* AVFoundation.framework */; };
+		98D30F4C16E044180090E006 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4B16E044180090E006 /* CFNetwork.framework */; };
+		98D30F4E16E0441E0090E006 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4D16E0441E0090E006 /* CoreMedia.framework */; };
+		98D30F5016E0442E0090E006 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F4F16E0442E0090E006 /* CoreVideo.framework */; };
+		98D30F5216E044400090E006 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F5116E044400090E006 /* MobileCoreServices.framework */; };
+		98D30F5416E044460090E006 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F5316E044460090E006 /* QuartzCore.framework */; };
+		98D30F5616E0444C0090E006 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F5516E0444C0090E006 /* Security.framework */; };
+		98D30F5816E044530090E006 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D30F5716E044530090E006 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +168,270 @@
 		98D30CCA16E0410E0090E006 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		98D30CCC16E0410E0090E006 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		98D30CCE16E0410E0090E006 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		98D30CD616E041390090E006 /* GCurlPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCurlPageView.h; sourceTree = "<group>"; };
-		98D30CD716E041390090E006 /* GCurlPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCurlPageView.m; sourceTree = "<group>"; };
 		98D30CD916E041410090E006 /* CatelogBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatelogBoard.h; sourceTree = "<group>"; };
 		98D30CDA16E041410090E006 /* CatelogBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatelogBoard.m; sourceTree = "<group>"; };
+		98D30CDF16E042040090E006 /* ASIHTTPRequest+Bee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest+Bee.h"; sourceTree = "<group>"; };
+		98D30CE016E042040090E006 /* ASIHTTPRequest+Bee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIHTTPRequest+Bee.m"; sourceTree = "<group>"; };
+		98D30CE116E042040090E006 /* Bee_Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Debug.h; sourceTree = "<group>"; };
+		98D30CE216E042040090E006 /* Bee_Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Debug.m; sourceTree = "<group>"; };
+		98D30CE316E042040090E006 /* Bee_DebugCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugCrashReporter.h; sourceTree = "<group>"; };
+		98D30CE416E042040090E006 /* Bee_DebugCrashReporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_DebugCrashReporter.mm; sourceTree = "<group>"; };
+		98D30CE516E042040090E006 /* Bee_DebugDashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugDashBoard.h; sourceTree = "<group>"; };
+		98D30CE616E042040090E006 /* Bee_DebugDashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugDashBoard.m; sourceTree = "<group>"; };
+		98D30CE716E042040090E006 /* Bee_DebugDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugDetailView.h; sourceTree = "<group>"; };
+		98D30CE816E042040090E006 /* Bee_DebugDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugDetailView.m; sourceTree = "<group>"; };
+		98D30CE916E042040090E006 /* Bee_DebugHeatmapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugHeatmapModel.h; sourceTree = "<group>"; };
+		98D30CEA16E042040090E006 /* Bee_DebugHeatmapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugHeatmapModel.m; sourceTree = "<group>"; };
+		98D30CEB16E042040090E006 /* Bee_DebugMemoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMemoryModel.h; sourceTree = "<group>"; };
+		98D30CEC16E042040090E006 /* Bee_DebugMemoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMemoryModel.m; sourceTree = "<group>"; };
+		98D30CED16E042040090E006 /* Bee_DebugMessageBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMessageBoard.h; sourceTree = "<group>"; };
+		98D30CEE16E042040090E006 /* Bee_DebugMessageBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMessageBoard.m; sourceTree = "<group>"; };
+		98D30CEF16E042040090E006 /* Bee_DebugMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMessageModel.h; sourceTree = "<group>"; };
+		98D30CF016E042040090E006 /* Bee_DebugMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMessageModel.m; sourceTree = "<group>"; };
+		98D30CF116E042040090E006 /* Bee_DebugNetworkBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugNetworkBoard.h; sourceTree = "<group>"; };
+		98D30CF216E042040090E006 /* Bee_DebugNetworkBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugNetworkBoard.m; sourceTree = "<group>"; };
+		98D30CF316E042040090E006 /* Bee_DebugNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugNetworkModel.h; sourceTree = "<group>"; };
+		98D30CF416E042040090E006 /* Bee_DebugNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugNetworkModel.m; sourceTree = "<group>"; };
+		98D30CF516E042040090E006 /* Bee_DebugPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugPieView.h; sourceTree = "<group>"; };
+		98D30CF616E042040090E006 /* Bee_DebugPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugPieView.m; sourceTree = "<group>"; };
+		98D30CF716E042040090E006 /* Bee_DebugPlotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugPlotsView.h; sourceTree = "<group>"; };
+		98D30CF816E042040090E006 /* Bee_DebugPlotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugPlotsView.m; sourceTree = "<group>"; };
+		98D30CF916E042040090E006 /* Bee_DebugSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugSampleView.h; sourceTree = "<group>"; };
+		98D30CFA16E042040090E006 /* Bee_DebugSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugSampleView.m; sourceTree = "<group>"; };
+		98D30CFB16E042040090E006 /* Bee_DebugSandboxBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugSandboxBoard.h; sourceTree = "<group>"; };
+		98D30CFC16E042040090E006 /* Bee_DebugSandboxBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugSandboxBoard.m; sourceTree = "<group>"; };
+		98D30CFD16E042040090E006 /* Bee_DebugUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugUtility.h; sourceTree = "<group>"; };
+		98D30CFE16E042040090E006 /* Bee_DebugUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugUtility.m; sourceTree = "<group>"; };
+		98D30CFF16E042040090E006 /* Bee_DebugViewBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugViewBoard.h; sourceTree = "<group>"; };
+		98D30D0016E042040090E006 /* Bee_DebugViewBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugViewBoard.m; sourceTree = "<group>"; };
+		98D30D0116E042040090E006 /* Bee_DebugViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugViewModel.h; sourceTree = "<group>"; };
+		98D30D0216E042040090E006 /* Bee_DebugViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugViewModel.m; sourceTree = "<group>"; };
+		98D30D0316E042040090E006 /* Bee_DebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugWindow.h; sourceTree = "<group>"; };
+		98D30D0416E042040090E006 /* Bee_DebugWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugWindow.m; sourceTree = "<group>"; };
+		98D30D0516E042040090E006 /* bug@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bug@2x.png"; sourceTree = "<group>"; };
+		98D30D0616E042040090E006 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		98D30D0716E042040090E006 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
+		98D30D0816E042040090E006 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
+		98D30D0916E042040090E006 /* heat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heat@2x.png"; sourceTree = "<group>"; };
+		98D30D0A16E042040090E006 /* tap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap@2x.png"; sourceTree = "<group>"; };
+		98D30D0C16E042040090E006 /* Bee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee.h; sourceTree = "<group>"; };
+		98D30D0D16E042040090E006 /* Bee_Precompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Precompile.h; sourceTree = "<group>"; };
+		98D30D0F16E042040090E006 /* Bee_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Core.h; sourceTree = "<group>"; };
+		98D30D1116E042040090E006 /* Bee_Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Foundation.h; sourceTree = "<group>"; };
+		98D30D1216E042040090E006 /* Bee_Foundation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Foundation.mm; sourceTree = "<group>"; };
+		98D30D1316E042040090E006 /* Bee_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Log.h; sourceTree = "<group>"; };
+		98D30D1416E042040090E006 /* Bee_Log.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Log.mm; sourceTree = "<group>"; };
+		98D30D1516E042040090E006 /* Bee_Performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Performance.h; sourceTree = "<group>"; };
+		98D30D1616E042040090E006 /* Bee_Performance.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Performance.mm; sourceTree = "<group>"; };
+		98D30D1716E042040090E006 /* Bee_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Runtime.h; sourceTree = "<group>"; };
+		98D30D1816E042040090E006 /* Bee_Runtime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Runtime.mm; sourceTree = "<group>"; };
+		98D30D1916E042040090E006 /* Bee_Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Sandbox.h; sourceTree = "<group>"; };
+		98D30D1A16E042040090E006 /* Bee_Sandbox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Sandbox.mm; sourceTree = "<group>"; };
+		98D30D1B16E042040090E006 /* Bee_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Singleton.h; sourceTree = "<group>"; };
+		98D30D1C16E042040090E006 /* Bee_Singleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Singleton.mm; sourceTree = "<group>"; };
+		98D30D1D16E042040090E006 /* Bee_SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_SystemInfo.h; sourceTree = "<group>"; };
+		98D30D1E16E042040090E006 /* Bee_SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_SystemInfo.m; sourceTree = "<group>"; };
+		98D30D1F16E042040090E006 /* Bee_Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Thread.h; sourceTree = "<group>"; };
+		98D30D2016E042040090E006 /* Bee_Thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Thread.mm; sourceTree = "<group>"; };
+		98D30D2216E042040090E006 /* NSArray+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D2316E042040090E006 /* NSArray+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D2416E042040090E006 /* NSData+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D2516E042040090E006 /* NSData+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D2616E042040090E006 /* NSDate+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D2716E042040090E006 /* NSDate+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D2816E042040090E006 /* NSDictionary+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D2916E042040090E006 /* NSDictionary+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D2A16E042040090E006 /* NSNumber+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D2B16E042040090E006 /* NSNumber+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D2C16E042040090E006 /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
+		98D30D2D16E042040090E006 /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
+		98D30D2E16E042040090E006 /* NSObject+BeeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeProperty.h"; sourceTree = "<group>"; };
+		98D30D2F16E042040090E006 /* NSObject+BeeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeProperty.m"; sourceTree = "<group>"; };
+		98D30D3016E042040090E006 /* NSObject+BeeTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTicker.h"; sourceTree = "<group>"; };
+		98D30D3116E042040090E006 /* NSObject+BeeTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTicker.m"; sourceTree = "<group>"; };
+		98D30D3216E042040090E006 /* NSObject+BeeTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTypeConversion.h"; sourceTree = "<group>"; };
+		98D30D3316E042040090E006 /* NSObject+BeeTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTypeConversion.m"; sourceTree = "<group>"; };
+		98D30D3416E042040090E006 /* NSString+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D3516E042040090E006 /* NSString+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D3716E042040090E006 /* Bee_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Network.h; sourceTree = "<group>"; };
+		98D30D3816E042040090E006 /* Bee_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Network.m; sourceTree = "<group>"; };
+		98D30D3916E042040090E006 /* Bee_Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Request.h; sourceTree = "<group>"; };
+		98D30D3A16E042040090E006 /* Bee_Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Request.m; sourceTree = "<group>"; };
+		98D30D3B16E042040090E006 /* Bee_RequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_RequestQueue.h; sourceTree = "<group>"; };
+		98D30D3C16E042040090E006 /* Bee_RequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_RequestQueue.m; sourceTree = "<group>"; };
+		98D30D3E16E042040090E006 /* NSObject+BeeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeRequest.h"; sourceTree = "<group>"; };
+		98D30D3F16E042040090E006 /* NSObject+BeeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeRequest.m"; sourceTree = "<group>"; };
+		98D30D4116E042040090E006 /* Bee_ActiveBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveBase.h; sourceTree = "<group>"; };
+		98D30D4216E042040090E006 /* Bee_ActiveBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveBase.m; sourceTree = "<group>"; };
+		98D30D4316E042040090E006 /* Bee_ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveRecord.h; sourceTree = "<group>"; };
+		98D30D4416E042040090E006 /* Bee_ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveRecord.m; sourceTree = "<group>"; };
+		98D30D4516E042040090E006 /* Bee_Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Cache.h; sourceTree = "<group>"; };
+		98D30D4616E042040090E006 /* Bee_Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Cache.m; sourceTree = "<group>"; };
+		98D30D4716E042040090E006 /* Bee_Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Database.h; sourceTree = "<group>"; };
+		98D30D4816E042040090E006 /* Bee_Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Database.m; sourceTree = "<group>"; };
+		98D30D4916E042040090E006 /* Bee_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Keychain.h; sourceTree = "<group>"; };
+		98D30D4A16E042040090E006 /* Bee_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Keychain.m; sourceTree = "<group>"; };
+		98D30D4B16E042040090E006 /* Bee_Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Storage.h; sourceTree = "<group>"; };
+		98D30D4C16E042040090E006 /* Bee_Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Storage.m; sourceTree = "<group>"; };
+		98D30D4E16E042040090E006 /* NSObject+BeeDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeDatabase.h"; sourceTree = "<group>"; };
+		98D30D4F16E042040090E006 /* NSObject+BeeDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeDatabase.m"; sourceTree = "<group>"; };
+		98D30D5016E042040090E006 /* NSObject+BeeKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeKeychain.h"; sourceTree = "<group>"; };
+		98D30D5116E042040090E006 /* NSObject+BeeKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeKeychain.m"; sourceTree = "<group>"; };
+		98D30D5316E042040090E006 /* Bee_MVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MVC.h; sourceTree = "<group>"; };
+		98D30D5516E042040090E006 /* Bee_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Controller.h; sourceTree = "<group>"; };
+		98D30D5616E042040090E006 /* Bee_Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Controller.mm; sourceTree = "<group>"; };
+		98D30D5716E042040090E006 /* Bee_Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Message.h; sourceTree = "<group>"; };
+		98D30D5816E042040090E006 /* Bee_Message.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Message.mm; sourceTree = "<group>"; };
+		98D30D5916E042040090E006 /* Bee_MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MessageQueue.h; sourceTree = "<group>"; };
+		98D30D5A16E042040090E006 /* Bee_MessageQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_MessageQueue.mm; sourceTree = "<group>"; };
+		98D30D5C16E042040090E006 /* BeeMessage+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+ActiveRecord.h"; sourceTree = "<group>"; };
+		98D30D5D16E042040090E006 /* BeeMessage+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeMessage+ActiveRecord.m"; sourceTree = "<group>"; };
+		98D30D5E16E042040090E006 /* BeeMessage+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+HTTP.h"; sourceTree = "<group>"; };
+		98D30D5F16E042040090E006 /* BeeMessage+HTTP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+HTTP.mm"; sourceTree = "<group>"; };
+		98D30D6016E042040090E006 /* BeeMessage+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+JSON.h"; sourceTree = "<group>"; };
+		98D30D6116E042040090E006 /* BeeMessage+JSON.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+JSON.mm"; sourceTree = "<group>"; };
+		98D30D6216E042040090E006 /* BeeMessage+XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+XML.h"; sourceTree = "<group>"; };
+		98D30D6316E042040090E006 /* BeeMessage+XML.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+XML.mm"; sourceTree = "<group>"; };
+		98D30D6416E042040090E006 /* NSObject+BeeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeMessage.h"; sourceTree = "<group>"; };
+		98D30D6516E042040090E006 /* NSObject+BeeMessage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeMessage.mm"; sourceTree = "<group>"; };
+		98D30D6716E042040090E006 /* Bee_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Model.h; sourceTree = "<group>"; };
+		98D30D6816E042040090E006 /* Bee_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Model.m; sourceTree = "<group>"; };
+		98D30D6A16E042040090E006 /* Bee_UIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActionSheet.h; sourceTree = "<group>"; };
+		98D30D6B16E042040090E006 /* Bee_UIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActionSheet.m; sourceTree = "<group>"; };
+		98D30D6C16E042040090E006 /* Bee_UIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActivityIndicatorView.h; sourceTree = "<group>"; };
+		98D30D6D16E042040090E006 /* Bee_UIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActivityIndicatorView.m; sourceTree = "<group>"; };
+		98D30D6E16E042040090E006 /* Bee_UIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIAlertView.h; sourceTree = "<group>"; };
+		98D30D6F16E042040090E006 /* Bee_UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIAlertView.m; sourceTree = "<group>"; };
+		98D30D7016E042040090E006 /* Bee_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIButton.h; sourceTree = "<group>"; };
+		98D30D7116E042040090E006 /* Bee_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIButton.m; sourceTree = "<group>"; };
+		98D30D7216E042040090E006 /* Bee_UIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIDatePicker.h; sourceTree = "<group>"; };
+		98D30D7316E042040090E006 /* Bee_UIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIDatePicker.m; sourceTree = "<group>"; };
+		98D30D7416E042040090E006 /* Bee_UIGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIGridCell.h; sourceTree = "<group>"; };
+		98D30D7516E042040090E006 /* Bee_UIGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIGridCell.m; sourceTree = "<group>"; };
+		98D30D7616E042040090E006 /* Bee_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIImageView.h; sourceTree = "<group>"; };
+		98D30D7716E042040090E006 /* Bee_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIImageView.m; sourceTree = "<group>"; };
+		98D30D7816E042040090E006 /* Bee_UIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIKeyboard.h; sourceTree = "<group>"; };
+		98D30D7916E042040090E006 /* Bee_UIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIKeyboard.m; sourceTree = "<group>"; };
+		98D30D7A16E042040090E006 /* Bee_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UILabel.h; sourceTree = "<group>"; };
+		98D30D7B16E042040090E006 /* Bee_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UILabel.m; sourceTree = "<group>"; };
+		98D30D7C16E042040090E006 /* Bee_UIOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIOrientation.h; sourceTree = "<group>"; };
+		98D30D7D16E042040090E006 /* Bee_UIOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIOrientation.m; sourceTree = "<group>"; };
+		98D30D7E16E042040090E006 /* Bee_UIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPageControl.h; sourceTree = "<group>"; };
+		98D30D7F16E042040090E006 /* Bee_UIPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPageControl.m; sourceTree = "<group>"; };
+		98D30D8016E042040090E006 /* Bee_UIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIProgressView.h; sourceTree = "<group>"; };
+		98D30D8116E042040090E006 /* Bee_UIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIProgressView.m; sourceTree = "<group>"; };
+		98D30D8216E042040090E006 /* Bee_UIPullLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPullLoader.h; sourceTree = "<group>"; };
+		98D30D8316E042040090E006 /* Bee_UIPullLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPullLoader.m; sourceTree = "<group>"; };
+		98D30D8416E042040090E006 /* Bee_UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIScrollView.h; sourceTree = "<group>"; };
+		98D30D8516E042040090E006 /* Bee_UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIScrollView.m; sourceTree = "<group>"; };
+		98D30D8616E042040090E006 /* Bee_UISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISegmentedControl.h; sourceTree = "<group>"; };
+		98D30D8716E042040090E006 /* Bee_UISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISegmentedControl.m; sourceTree = "<group>"; };
+		98D30D8816E042040090E006 /* Bee_UISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISignal.h; sourceTree = "<group>"; };
+		98D30D8916E042040090E006 /* Bee_UISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISignal.m; sourceTree = "<group>"; };
+		98D30D8A16E042040090E006 /* Bee_UITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITabBar.h; sourceTree = "<group>"; };
+		98D30D8B16E042040090E006 /* Bee_UITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITabBar.m; sourceTree = "<group>"; };
+		98D30D8C16E042040090E006 /* Bee_UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextField.h; sourceTree = "<group>"; };
+		98D30D8D16E042040090E006 /* Bee_UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextField.m; sourceTree = "<group>"; };
+		98D30D8E16E042040090E006 /* Bee_UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextView.h; sourceTree = "<group>"; };
+		98D30D8F16E042040090E006 /* Bee_UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextView.m; sourceTree = "<group>"; };
+		98D30D9016E042040090E006 /* Bee_UITipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITipsView.h; sourceTree = "<group>"; };
+		98D30D9116E042040090E006 /* Bee_UITipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITipsView.m; sourceTree = "<group>"; };
+		98D30D9216E042040090E006 /* Bee_UIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIWebView.h; sourceTree = "<group>"; };
+		98D30D9316E042040090E006 /* Bee_UIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIWebView.m; sourceTree = "<group>"; };
+		98D30D9416E042040090E006 /* Bee_UIZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIZoomView.h; sourceTree = "<group>"; };
+		98D30D9516E042040090E006 /* Bee_UIZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIZoomView.m; sourceTree = "<group>"; };
+		98D30D9616E042040090E006 /* Bee_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_View.h; sourceTree = "<group>"; };
+		98D30D9716E042040090E006 /* Bee_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_View.m; sourceTree = "<group>"; };
+		98D30D9916E042040090E006 /* CGRect+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGRect+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D9A16E042040090E006 /* CGRect+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGRect+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D9B16E042040090E006 /* UIColor+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D9C16E042040090E006 /* UIColor+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D9D16E042040090E006 /* UIFont+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30D9E16E042040090E006 /* UIFont+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30D9F16E042040090E006 /* UIImage+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30DA016E042040090E006 /* UIImage+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30DA116E042040090E006 /* UIView+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30DA216E042040090E006 /* UIView+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30DA316E042040090E006 /* UIView+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUISignal.h"; sourceTree = "<group>"; };
+		98D30DA416E042040090E006 /* UIView+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUISignal.m"; sourceTree = "<group>"; };
+		98D30DA516E042040090E006 /* UIView+HoldGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HoldGesture.h"; sourceTree = "<group>"; };
+		98D30DA616E042040090E006 /* UIView+HoldGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HoldGesture.m"; sourceTree = "<group>"; };
+		98D30DA716E042040090E006 /* UIView+PanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PanGesture.h"; sourceTree = "<group>"; };
+		98D30DA816E042040090E006 /* UIView+PanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PanGesture.m"; sourceTree = "<group>"; };
+		98D30DA916E042040090E006 /* UIView+SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SwipeGesture.h"; sourceTree = "<group>"; };
+		98D30DAA16E042040090E006 /* UIView+SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SwipeGesture.m"; sourceTree = "<group>"; };
+		98D30DAB16E042040090E006 /* UIView+TapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapGesture.h"; sourceTree = "<group>"; };
+		98D30DAC16E042040090E006 /* UIView+TapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapGesture.m"; sourceTree = "<group>"; };
+		98D30DAE16E042040090E006 /* Bee_UIBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIBoard.h; sourceTree = "<group>"; };
+		98D30DAF16E042040090E006 /* Bee_UIBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIBoard.m; sourceTree = "<group>"; };
+		98D30DB016E042040090E006 /* Bee_UIStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStack.h; sourceTree = "<group>"; };
+		98D30DB116E042040090E006 /* Bee_UIStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStack.m; sourceTree = "<group>"; };
+		98D30DB216E042040090E006 /* Bee_UIStackGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStackGroup.h; sourceTree = "<group>"; };
+		98D30DB316E042040090E006 /* Bee_UIStackGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStackGroup.m; sourceTree = "<group>"; };
+		98D30DB416E042040090E006 /* Bee_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ViewController.h; sourceTree = "<group>"; };
+		98D30DB516E042040090E006 /* Bee_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ViewController.m; sourceTree = "<group>"; };
+		98D30DB716E042040090E006 /* UIViewController+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeExtension.h"; sourceTree = "<group>"; };
+		98D30DB816E042040090E006 /* UIViewController+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeExtension.m"; sourceTree = "<group>"; };
+		98D30DB916E042040090E006 /* UIViewController+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUISignal.h"; sourceTree = "<group>"; };
+		98D30DBA16E042040090E006 /* UIViewController+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUISignal.m"; sourceTree = "<group>"; };
+		98D30DBB16E042040090E006 /* UIViewController+UINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UINavigationBar.h"; sourceTree = "<group>"; };
+		98D30DBC16E042040090E006 /* UIViewController+UINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UINavigationBar.m"; sourceTree = "<group>"; };
+		98D30DC016E042040090E006 /* Bee_UICameraBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UICameraBoard.h; sourceTree = "<group>"; };
+		98D30DC116E042040090E006 /* Bee_UICameraBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UICameraBoard.m; sourceTree = "<group>"; };
+		98D30DC216E042040090E006 /* Bee_UIFlowBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIFlowBoard.h; sourceTree = "<group>"; };
+		98D30DC316E042040090E006 /* Bee_UIFlowBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIFlowBoard.m; sourceTree = "<group>"; };
+		98D30DC416E042040090E006 /* Bee_UITableBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITableBoard.h; sourceTree = "<group>"; };
+		98D30DC516E042040090E006 /* Bee_UITableBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITableBoard.m; sourceTree = "<group>"; };
+		98D30DC616E042040090E006 /* Bee_UIWebBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIWebBoard.h; sourceTree = "<group>"; };
+		98D30DC716E042040090E006 /* Bee_UIWebBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIWebBoard.m; sourceTree = "<group>"; };
+		98D30DC916E042040090E006 /* Bee_UnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UnitTest.h; sourceTree = "<group>"; };
+		98D30DCA16E042040090E006 /* Bee_UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UnitTest.m; sourceTree = "<group>"; };
+		98D30E3B16E042050090E006 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		98D30E3C16E042050090E006 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		98D30E3D16E042050090E006 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		98D30E3E16E042050090E006 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		98D30E3F16E042050090E006 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		98D30E4016E042050090E006 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		98D30E4116E042050090E006 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		98D30E4216E042050090E006 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		98D30E4316E042050090E006 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		98D30E4416E042050090E006 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		98D30E4516E042050090E006 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		98D30E4616E042050090E006 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		98D30E4716E042050090E006 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		98D30E4816E042050090E006 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		98D30E4916E042050090E006 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		98D30E4A16E042050090E006 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		98D30E4B16E042050090E006 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		98D30E4C16E042050090E006 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		98D30E4D16E042050090E006 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		98D30E4E16E042050090E006 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		98D30E5016E042050090E006 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		98D30E5116E042050090E006 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		98D30E5216E042050090E006 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		98D30E5316E042050090E006 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		98D30E5416E042050090E006 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		98D30E5516E042050090E006 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		98D30E5616E042050090E006 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		98D30E5716E042050090E006 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		98D30E5816E042050090E006 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		98D30E5916E042050090E006 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		98D30E5B16E042050090E006 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		98D30E5C16E042050090E006 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		98D30E5E16E042050090E006 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		98D30E5F16E042050090E006 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		98D30F4216E043630090E006 /* GCurlPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCurlPageView.h; sourceTree = "<group>"; };
+		98D30F4316E043630090E006 /* GCurlPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCurlPageView.m; sourceTree = "<group>"; };
+		98D30F4516E044060090E006 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		98D30F4716E0440B0090E006 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		98D30F4916E044130090E006 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		98D30F4B16E044180090E006 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		98D30F4D16E0441E0090E006 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		98D30F4F16E0442E0090E006 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		98D30F5116E044400090E006 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		98D30F5316E044460090E006 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		98D30F5516E0444C0090E006 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		98D30F5716E044530090E006 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +439,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D30F5816E044530090E006 /* SystemConfiguration.framework in Frameworks */,
+				98D30F5616E0444C0090E006 /* Security.framework in Frameworks */,
+				98D30F5416E044460090E006 /* QuartzCore.framework in Frameworks */,
+				98D30F5216E044400090E006 /* MobileCoreServices.framework in Frameworks */,
+				98D30CBD16E0410E0090E006 /* CoreGraphics.framework in Frameworks */,
+				98D30F5016E0442E0090E006 /* CoreVideo.framework in Frameworks */,
+				98D30F4E16E0441E0090E006 /* CoreMedia.framework in Frameworks */,
+				98D30F4C16E044180090E006 /* CFNetwork.framework in Frameworks */,
+				98D30F4A16E044130090E006 /* AVFoundation.framework in Frameworks */,
+				98D30F4816E0440B0090E006 /* libsqlite3.dylib in Frameworks */,
+				98D30F4616E044060090E006 /* libz.dylib in Frameworks */,
 				98D30CB916E0410E0090E006 /* UIKit.framework in Frameworks */,
 				98D30CBB16E0410E0090E006 /* Foundation.framework in Frameworks */,
-				98D30CBD16E0410E0090E006 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +461,8 @@
 		98D30CAC16E0410E0090E006 = {
 			isa = PBXGroup;
 			children = (
-				98D30CD516E041390090E006 /* src */,
+				98D30F4116E043630090E006 /* src */,
+				98D30CDC16E042040090E006 /* bee */,
 				98D30CBE16E0410E0090E006 /* GCurlPageView */,
 				98D30CB716E0410E0090E006 /* Frameworks */,
 				98D30CB616E0410E0090E006 /* Products */,
@@ -75,6 +480,16 @@
 		98D30CB716E0410E0090E006 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98D30F5716E044530090E006 /* SystemConfiguration.framework */,
+				98D30F5516E0444C0090E006 /* Security.framework */,
+				98D30F5316E044460090E006 /* QuartzCore.framework */,
+				98D30F5116E044400090E006 /* MobileCoreServices.framework */,
+				98D30F4F16E0442E0090E006 /* CoreVideo.framework */,
+				98D30F4D16E0441E0090E006 /* CoreMedia.framework */,
+				98D30F4B16E044180090E006 /* CFNetwork.framework */,
+				98D30F4916E044130090E006 /* AVFoundation.framework */,
+				98D30F4716E0440B0090E006 /* libsqlite3.dylib */,
+				98D30F4516E044060090E006 /* libz.dylib */,
 				98D30CB816E0410E0090E006 /* UIKit.framework */,
 				98D30CBA16E0410E0090E006 /* Foundation.framework */,
 				98D30CBC16E0410E0090E006 /* CoreGraphics.framework */,
@@ -108,13 +523,471 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98D30CD516E041390090E006 /* src */ = {
+		98D30CDC16E042040090E006 /* bee */ = {
 			isa = PBXGroup;
 			children = (
-				98D30CD616E041390090E006 /* GCurlPageView.h */,
-				98D30CD716E041390090E006 /* GCurlPageView.m */,
+				98D30CDE16E042040090E006 /* BeeDebugger */,
+				98D30D0B16E042040090E006 /* BeeFramework */,
+				98D30DBE16E042040090E006 /* BeeTemplates */,
+				98D30DC816E042040090E006 /* BeeUnitTest */,
+				98D30E3916E042050090E006 /* External */,
 			);
-			path = src;
+			path = bee;
+			sourceTree = "<group>";
+		};
+		98D30CDE16E042040090E006 /* BeeDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				98D30CDF16E042040090E006 /* ASIHTTPRequest+Bee.h */,
+				98D30CE016E042040090E006 /* ASIHTTPRequest+Bee.m */,
+				98D30CE116E042040090E006 /* Bee_Debug.h */,
+				98D30CE216E042040090E006 /* Bee_Debug.m */,
+				98D30CE316E042040090E006 /* Bee_DebugCrashReporter.h */,
+				98D30CE416E042040090E006 /* Bee_DebugCrashReporter.mm */,
+				98D30CE516E042040090E006 /* Bee_DebugDashBoard.h */,
+				98D30CE616E042040090E006 /* Bee_DebugDashBoard.m */,
+				98D30CE716E042040090E006 /* Bee_DebugDetailView.h */,
+				98D30CE816E042040090E006 /* Bee_DebugDetailView.m */,
+				98D30CE916E042040090E006 /* Bee_DebugHeatmapModel.h */,
+				98D30CEA16E042040090E006 /* Bee_DebugHeatmapModel.m */,
+				98D30CEB16E042040090E006 /* Bee_DebugMemoryModel.h */,
+				98D30CEC16E042040090E006 /* Bee_DebugMemoryModel.m */,
+				98D30CED16E042040090E006 /* Bee_DebugMessageBoard.h */,
+				98D30CEE16E042040090E006 /* Bee_DebugMessageBoard.m */,
+				98D30CEF16E042040090E006 /* Bee_DebugMessageModel.h */,
+				98D30CF016E042040090E006 /* Bee_DebugMessageModel.m */,
+				98D30CF116E042040090E006 /* Bee_DebugNetworkBoard.h */,
+				98D30CF216E042040090E006 /* Bee_DebugNetworkBoard.m */,
+				98D30CF316E042040090E006 /* Bee_DebugNetworkModel.h */,
+				98D30CF416E042040090E006 /* Bee_DebugNetworkModel.m */,
+				98D30CF516E042040090E006 /* Bee_DebugPieView.h */,
+				98D30CF616E042040090E006 /* Bee_DebugPieView.m */,
+				98D30CF716E042040090E006 /* Bee_DebugPlotsView.h */,
+				98D30CF816E042040090E006 /* Bee_DebugPlotsView.m */,
+				98D30CF916E042040090E006 /* Bee_DebugSampleView.h */,
+				98D30CFA16E042040090E006 /* Bee_DebugSampleView.m */,
+				98D30CFB16E042040090E006 /* Bee_DebugSandboxBoard.h */,
+				98D30CFC16E042040090E006 /* Bee_DebugSandboxBoard.m */,
+				98D30CFD16E042040090E006 /* Bee_DebugUtility.h */,
+				98D30CFE16E042040090E006 /* Bee_DebugUtility.m */,
+				98D30CFF16E042040090E006 /* Bee_DebugViewBoard.h */,
+				98D30D0016E042040090E006 /* Bee_DebugViewBoard.m */,
+				98D30D0116E042040090E006 /* Bee_DebugViewModel.h */,
+				98D30D0216E042040090E006 /* Bee_DebugViewModel.m */,
+				98D30D0316E042040090E006 /* Bee_DebugWindow.h */,
+				98D30D0416E042040090E006 /* Bee_DebugWindow.m */,
+				98D30D0516E042040090E006 /* bug@2x.png */,
+				98D30D0616E042040090E006 /* close@2x.png */,
+				98D30D0716E042040090E006 /* file@2x.png */,
+				98D30D0816E042040090E006 /* folder@2x.png */,
+				98D30D0916E042040090E006 /* heat@2x.png */,
+				98D30D0A16E042040090E006 /* tap@2x.png */,
+			);
+			path = BeeDebugger;
+			sourceTree = "<group>";
+		};
+		98D30D0B16E042040090E006 /* BeeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D0C16E042040090E006 /* Bee.h */,
+				98D30D0D16E042040090E006 /* Bee_Precompile.h */,
+				98D30D0E16E042040090E006 /* Core */,
+				98D30D5216E042040090E006 /* MVC */,
+			);
+			path = BeeFramework;
+			sourceTree = "<group>";
+		};
+		98D30D0E16E042040090E006 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D0F16E042040090E006 /* Bee_Core.h */,
+				98D30D1016E042040090E006 /* Foundation */,
+				98D30D3616E042040090E006 /* Network */,
+				98D30D4016E042040090E006 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		98D30D1016E042040090E006 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D1116E042040090E006 /* Bee_Foundation.h */,
+				98D30D1216E042040090E006 /* Bee_Foundation.mm */,
+				98D30D1316E042040090E006 /* Bee_Log.h */,
+				98D30D1416E042040090E006 /* Bee_Log.mm */,
+				98D30D1516E042040090E006 /* Bee_Performance.h */,
+				98D30D1616E042040090E006 /* Bee_Performance.mm */,
+				98D30D1716E042040090E006 /* Bee_Runtime.h */,
+				98D30D1816E042040090E006 /* Bee_Runtime.mm */,
+				98D30D1916E042040090E006 /* Bee_Sandbox.h */,
+				98D30D1A16E042040090E006 /* Bee_Sandbox.mm */,
+				98D30D1B16E042040090E006 /* Bee_Singleton.h */,
+				98D30D1C16E042040090E006 /* Bee_Singleton.mm */,
+				98D30D1D16E042040090E006 /* Bee_SystemInfo.h */,
+				98D30D1E16E042040090E006 /* Bee_SystemInfo.m */,
+				98D30D1F16E042040090E006 /* Bee_Thread.h */,
+				98D30D2016E042040090E006 /* Bee_Thread.mm */,
+				98D30D2116E042040090E006 /* Extension */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		98D30D2116E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D2216E042040090E006 /* NSArray+BeeExtension.h */,
+				98D30D2316E042040090E006 /* NSArray+BeeExtension.m */,
+				98D30D2416E042040090E006 /* NSData+BeeExtension.h */,
+				98D30D2516E042040090E006 /* NSData+BeeExtension.m */,
+				98D30D2616E042040090E006 /* NSDate+BeeExtension.h */,
+				98D30D2716E042040090E006 /* NSDate+BeeExtension.m */,
+				98D30D2816E042040090E006 /* NSDictionary+BeeExtension.h */,
+				98D30D2916E042040090E006 /* NSDictionary+BeeExtension.m */,
+				98D30D2A16E042040090E006 /* NSNumber+BeeExtension.h */,
+				98D30D2B16E042040090E006 /* NSNumber+BeeExtension.m */,
+				98D30D2C16E042040090E006 /* NSObject+BeeNotification.h */,
+				98D30D2D16E042040090E006 /* NSObject+BeeNotification.m */,
+				98D30D2E16E042040090E006 /* NSObject+BeeProperty.h */,
+				98D30D2F16E042040090E006 /* NSObject+BeeProperty.m */,
+				98D30D3016E042040090E006 /* NSObject+BeeTicker.h */,
+				98D30D3116E042040090E006 /* NSObject+BeeTicker.m */,
+				98D30D3216E042040090E006 /* NSObject+BeeTypeConversion.h */,
+				98D30D3316E042040090E006 /* NSObject+BeeTypeConversion.m */,
+				98D30D3416E042040090E006 /* NSString+BeeExtension.h */,
+				98D30D3516E042040090E006 /* NSString+BeeExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30D3616E042040090E006 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D3716E042040090E006 /* Bee_Network.h */,
+				98D30D3816E042040090E006 /* Bee_Network.m */,
+				98D30D3916E042040090E006 /* Bee_Request.h */,
+				98D30D3A16E042040090E006 /* Bee_Request.m */,
+				98D30D3B16E042040090E006 /* Bee_RequestQueue.h */,
+				98D30D3C16E042040090E006 /* Bee_RequestQueue.m */,
+				98D30D3D16E042040090E006 /* Extension */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		98D30D3D16E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D3E16E042040090E006 /* NSObject+BeeRequest.h */,
+				98D30D3F16E042040090E006 /* NSObject+BeeRequest.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30D4016E042040090E006 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D4116E042040090E006 /* Bee_ActiveBase.h */,
+				98D30D4216E042040090E006 /* Bee_ActiveBase.m */,
+				98D30D4316E042040090E006 /* Bee_ActiveRecord.h */,
+				98D30D4416E042040090E006 /* Bee_ActiveRecord.m */,
+				98D30D4516E042040090E006 /* Bee_Cache.h */,
+				98D30D4616E042040090E006 /* Bee_Cache.m */,
+				98D30D4716E042040090E006 /* Bee_Database.h */,
+				98D30D4816E042040090E006 /* Bee_Database.m */,
+				98D30D4916E042040090E006 /* Bee_Keychain.h */,
+				98D30D4A16E042040090E006 /* Bee_Keychain.m */,
+				98D30D4B16E042040090E006 /* Bee_Storage.h */,
+				98D30D4C16E042040090E006 /* Bee_Storage.m */,
+				98D30D4D16E042040090E006 /* Extension */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		98D30D4D16E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D4E16E042040090E006 /* NSObject+BeeDatabase.h */,
+				98D30D4F16E042040090E006 /* NSObject+BeeDatabase.m */,
+				98D30D5016E042040090E006 /* NSObject+BeeKeychain.h */,
+				98D30D5116E042040090E006 /* NSObject+BeeKeychain.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30D5216E042040090E006 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D5316E042040090E006 /* Bee_MVC.h */,
+				98D30D5416E042040090E006 /* Controller */,
+				98D30D6616E042040090E006 /* Model */,
+				98D30D6916E042040090E006 /* View */,
+				98D30DAD16E042040090E006 /* ViewController */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		98D30D5416E042040090E006 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D5516E042040090E006 /* Bee_Controller.h */,
+				98D30D5616E042040090E006 /* Bee_Controller.mm */,
+				98D30D5716E042040090E006 /* Bee_Message.h */,
+				98D30D5816E042040090E006 /* Bee_Message.mm */,
+				98D30D5916E042040090E006 /* Bee_MessageQueue.h */,
+				98D30D5A16E042040090E006 /* Bee_MessageQueue.mm */,
+				98D30D5B16E042040090E006 /* Extension */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98D30D5B16E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D5C16E042040090E006 /* BeeMessage+ActiveRecord.h */,
+				98D30D5D16E042040090E006 /* BeeMessage+ActiveRecord.m */,
+				98D30D5E16E042040090E006 /* BeeMessage+HTTP.h */,
+				98D30D5F16E042040090E006 /* BeeMessage+HTTP.mm */,
+				98D30D6016E042040090E006 /* BeeMessage+JSON.h */,
+				98D30D6116E042040090E006 /* BeeMessage+JSON.mm */,
+				98D30D6216E042040090E006 /* BeeMessage+XML.h */,
+				98D30D6316E042040090E006 /* BeeMessage+XML.mm */,
+				98D30D6416E042040090E006 /* NSObject+BeeMessage.h */,
+				98D30D6516E042040090E006 /* NSObject+BeeMessage.mm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30D6616E042040090E006 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D6716E042040090E006 /* Bee_Model.h */,
+				98D30D6816E042040090E006 /* Bee_Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98D30D6916E042040090E006 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D6A16E042040090E006 /* Bee_UIActionSheet.h */,
+				98D30D6B16E042040090E006 /* Bee_UIActionSheet.m */,
+				98D30D6C16E042040090E006 /* Bee_UIActivityIndicatorView.h */,
+				98D30D6D16E042040090E006 /* Bee_UIActivityIndicatorView.m */,
+				98D30D6E16E042040090E006 /* Bee_UIAlertView.h */,
+				98D30D6F16E042040090E006 /* Bee_UIAlertView.m */,
+				98D30D7016E042040090E006 /* Bee_UIButton.h */,
+				98D30D7116E042040090E006 /* Bee_UIButton.m */,
+				98D30D7216E042040090E006 /* Bee_UIDatePicker.h */,
+				98D30D7316E042040090E006 /* Bee_UIDatePicker.m */,
+				98D30D7416E042040090E006 /* Bee_UIGridCell.h */,
+				98D30D7516E042040090E006 /* Bee_UIGridCell.m */,
+				98D30D7616E042040090E006 /* Bee_UIImageView.h */,
+				98D30D7716E042040090E006 /* Bee_UIImageView.m */,
+				98D30D7816E042040090E006 /* Bee_UIKeyboard.h */,
+				98D30D7916E042040090E006 /* Bee_UIKeyboard.m */,
+				98D30D7A16E042040090E006 /* Bee_UILabel.h */,
+				98D30D7B16E042040090E006 /* Bee_UILabel.m */,
+				98D30D7C16E042040090E006 /* Bee_UIOrientation.h */,
+				98D30D7D16E042040090E006 /* Bee_UIOrientation.m */,
+				98D30D7E16E042040090E006 /* Bee_UIPageControl.h */,
+				98D30D7F16E042040090E006 /* Bee_UIPageControl.m */,
+				98D30D8016E042040090E006 /* Bee_UIProgressView.h */,
+				98D30D8116E042040090E006 /* Bee_UIProgressView.m */,
+				98D30D8216E042040090E006 /* Bee_UIPullLoader.h */,
+				98D30D8316E042040090E006 /* Bee_UIPullLoader.m */,
+				98D30D8416E042040090E006 /* Bee_UIScrollView.h */,
+				98D30D8516E042040090E006 /* Bee_UIScrollView.m */,
+				98D30D8616E042040090E006 /* Bee_UISegmentedControl.h */,
+				98D30D8716E042040090E006 /* Bee_UISegmentedControl.m */,
+				98D30D8816E042040090E006 /* Bee_UISignal.h */,
+				98D30D8916E042040090E006 /* Bee_UISignal.m */,
+				98D30D8A16E042040090E006 /* Bee_UITabBar.h */,
+				98D30D8B16E042040090E006 /* Bee_UITabBar.m */,
+				98D30D8C16E042040090E006 /* Bee_UITextField.h */,
+				98D30D8D16E042040090E006 /* Bee_UITextField.m */,
+				98D30D8E16E042040090E006 /* Bee_UITextView.h */,
+				98D30D8F16E042040090E006 /* Bee_UITextView.m */,
+				98D30D9016E042040090E006 /* Bee_UITipsView.h */,
+				98D30D9116E042040090E006 /* Bee_UITipsView.m */,
+				98D30D9216E042040090E006 /* Bee_UIWebView.h */,
+				98D30D9316E042040090E006 /* Bee_UIWebView.m */,
+				98D30D9416E042040090E006 /* Bee_UIZoomView.h */,
+				98D30D9516E042040090E006 /* Bee_UIZoomView.m */,
+				98D30D9616E042040090E006 /* Bee_View.h */,
+				98D30D9716E042040090E006 /* Bee_View.m */,
+				98D30D9816E042040090E006 /* Extension */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98D30D9816E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30D9916E042040090E006 /* CGRect+BeeExtension.h */,
+				98D30D9A16E042040090E006 /* CGRect+BeeExtension.m */,
+				98D30D9B16E042040090E006 /* UIColor+BeeExtension.h */,
+				98D30D9C16E042040090E006 /* UIColor+BeeExtension.m */,
+				98D30D9D16E042040090E006 /* UIFont+BeeExtension.h */,
+				98D30D9E16E042040090E006 /* UIFont+BeeExtension.m */,
+				98D30D9F16E042040090E006 /* UIImage+BeeExtension.h */,
+				98D30DA016E042040090E006 /* UIImage+BeeExtension.m */,
+				98D30DA116E042040090E006 /* UIView+BeeExtension.h */,
+				98D30DA216E042040090E006 /* UIView+BeeExtension.m */,
+				98D30DA316E042040090E006 /* UIView+BeeUISignal.h */,
+				98D30DA416E042040090E006 /* UIView+BeeUISignal.m */,
+				98D30DA516E042040090E006 /* UIView+HoldGesture.h */,
+				98D30DA616E042040090E006 /* UIView+HoldGesture.m */,
+				98D30DA716E042040090E006 /* UIView+PanGesture.h */,
+				98D30DA816E042040090E006 /* UIView+PanGesture.m */,
+				98D30DA916E042040090E006 /* UIView+SwipeGesture.h */,
+				98D30DAA16E042040090E006 /* UIView+SwipeGesture.m */,
+				98D30DAB16E042040090E006 /* UIView+TapGesture.h */,
+				98D30DAC16E042040090E006 /* UIView+TapGesture.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30DAD16E042040090E006 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98D30DAE16E042040090E006 /* Bee_UIBoard.h */,
+				98D30DAF16E042040090E006 /* Bee_UIBoard.m */,
+				98D30DB016E042040090E006 /* Bee_UIStack.h */,
+				98D30DB116E042040090E006 /* Bee_UIStack.m */,
+				98D30DB216E042040090E006 /* Bee_UIStackGroup.h */,
+				98D30DB316E042040090E006 /* Bee_UIStackGroup.m */,
+				98D30DB416E042040090E006 /* Bee_ViewController.h */,
+				98D30DB516E042040090E006 /* Bee_ViewController.m */,
+				98D30DB616E042040090E006 /* Extension */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		98D30DB616E042040090E006 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D30DB716E042040090E006 /* UIViewController+BeeExtension.h */,
+				98D30DB816E042040090E006 /* UIViewController+BeeExtension.m */,
+				98D30DB916E042040090E006 /* UIViewController+BeeUISignal.h */,
+				98D30DBA16E042040090E006 /* UIViewController+BeeUISignal.m */,
+				98D30DBB16E042040090E006 /* UIViewController+UINavigationBar.h */,
+				98D30DBC16E042040090E006 /* UIViewController+UINavigationBar.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D30DBE16E042040090E006 /* BeeTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				98D30DBF16E042040090E006 /* CustomBoard */,
+			);
+			path = BeeTemplates;
+			sourceTree = "<group>";
+		};
+		98D30DBF16E042040090E006 /* CustomBoard */ = {
+			isa = PBXGroup;
+			children = (
+				98D30DC016E042040090E006 /* Bee_UICameraBoard.h */,
+				98D30DC116E042040090E006 /* Bee_UICameraBoard.m */,
+				98D30DC216E042040090E006 /* Bee_UIFlowBoard.h */,
+				98D30DC316E042040090E006 /* Bee_UIFlowBoard.m */,
+				98D30DC416E042040090E006 /* Bee_UITableBoard.h */,
+				98D30DC516E042040090E006 /* Bee_UITableBoard.m */,
+				98D30DC616E042040090E006 /* Bee_UIWebBoard.h */,
+				98D30DC716E042040090E006 /* Bee_UIWebBoard.m */,
+			);
+			path = CustomBoard;
+			sourceTree = "<group>";
+		};
+		98D30DC816E042040090E006 /* BeeUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				98D30DC916E042040090E006 /* Bee_UnitTest.h */,
+				98D30DCA16E042040090E006 /* Bee_UnitTest.m */,
+			);
+			path = BeeUnitTest;
+			sourceTree = "<group>";
+		};
+		98D30E3916E042050090E006 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				98D30E3A16E042050090E006 /* ASI */,
+				98D30E4F16E042050090E006 /* FMDB */,
+				98D30E5A16E042050090E006 /* JSONKit */,
+				98D30E5D16E042050090E006 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		98D30E3A16E042050090E006 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				98D30E3B16E042050090E006 /* ASIAuthenticationDialog.h */,
+				98D30E3C16E042050090E006 /* ASIAuthenticationDialog.m */,
+				98D30E3D16E042050090E006 /* ASICacheDelegate.h */,
+				98D30E3E16E042050090E006 /* ASIDataCompressor.h */,
+				98D30E3F16E042050090E006 /* ASIDataCompressor.m */,
+				98D30E4016E042050090E006 /* ASIDataDecompressor.h */,
+				98D30E4116E042050090E006 /* ASIDataDecompressor.m */,
+				98D30E4216E042050090E006 /* ASIDownloadCache.h */,
+				98D30E4316E042050090E006 /* ASIDownloadCache.m */,
+				98D30E4416E042050090E006 /* ASIFormDataRequest.h */,
+				98D30E4516E042050090E006 /* ASIFormDataRequest.m */,
+				98D30E4616E042050090E006 /* ASIHTTPRequest.h */,
+				98D30E4716E042050090E006 /* ASIHTTPRequest.m */,
+				98D30E4816E042050090E006 /* ASIHTTPRequestConfig.h */,
+				98D30E4916E042050090E006 /* ASIHTTPRequestDelegate.h */,
+				98D30E4A16E042050090E006 /* ASIInputStream.h */,
+				98D30E4B16E042050090E006 /* ASIInputStream.m */,
+				98D30E4C16E042050090E006 /* ASINetworkQueue.h */,
+				98D30E4D16E042050090E006 /* ASINetworkQueue.m */,
+				98D30E4E16E042050090E006 /* ASIProgressDelegate.h */,
+			);
+			path = ASI;
+			sourceTree = "<group>";
+		};
+		98D30E4F16E042050090E006 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				98D30E5016E042050090E006 /* FMDatabase.h */,
+				98D30E5116E042050090E006 /* FMDatabase.m */,
+				98D30E5216E042050090E006 /* FMDatabaseAdditions.h */,
+				98D30E5316E042050090E006 /* FMDatabaseAdditions.m */,
+				98D30E5416E042050090E006 /* FMDatabasePool.h */,
+				98D30E5516E042050090E006 /* FMDatabasePool.m */,
+				98D30E5616E042050090E006 /* FMDatabaseQueue.h */,
+				98D30E5716E042050090E006 /* FMDatabaseQueue.m */,
+				98D30E5816E042050090E006 /* FMResultSet.h */,
+				98D30E5916E042050090E006 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		98D30E5A16E042050090E006 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				98D30E5B16E042050090E006 /* JSONKit.h */,
+				98D30E5C16E042050090E006 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		98D30E5D16E042050090E006 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				98D30E5E16E042050090E006 /* Reachability.h */,
+				98D30E5F16E042050090E006 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		98D30F4116E043630090E006 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				98D30F4216E043630090E006 /* GCurlPageView.h */,
+				98D30F4316E043630090E006 /* GCurlPageView.m */,
+			);
+			name = src;
+			path = GCurlPageView/src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +1045,12 @@
 				98D30CCB16E0410E0090E006 /* Default.png in Resources */,
 				98D30CCD16E0410E0090E006 /* Default@2x.png in Resources */,
 				98D30CCF16E0410E0090E006 /* Default-568h@2x.png in Resources */,
+				98D30E7F16E042050090E006 /* bug@2x.png in Resources */,
+				98D30E8016E042050090E006 /* close@2x.png in Resources */,
+				98D30E8116E042050090E006 /* file@2x.png in Resources */,
+				98D30E8216E042050090E006 /* folder@2x.png in Resources */,
+				98D30E8316E042050090E006 /* heat@2x.png in Resources */,
+				98D30E8416E042050090E006 /* tap@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +1063,126 @@
 			files = (
 				98D30CC516E0410E0090E006 /* main.m in Sources */,
 				98D30CC916E0410E0090E006 /* AppDelegate.m in Sources */,
-				98D30CD816E041390090E006 /* GCurlPageView.m in Sources */,
 				98D30CDB16E041410090E006 /* CatelogBoard.m in Sources */,
+				98D30E6C16E042050090E006 /* ASIHTTPRequest+Bee.m in Sources */,
+				98D30E6D16E042050090E006 /* Bee_Debug.m in Sources */,
+				98D30E6E16E042050090E006 /* Bee_DebugCrashReporter.mm in Sources */,
+				98D30E6F16E042050090E006 /* Bee_DebugDashBoard.m in Sources */,
+				98D30E7016E042050090E006 /* Bee_DebugDetailView.m in Sources */,
+				98D30E7116E042050090E006 /* Bee_DebugHeatmapModel.m in Sources */,
+				98D30E7216E042050090E006 /* Bee_DebugMemoryModel.m in Sources */,
+				98D30E7316E042050090E006 /* Bee_DebugMessageBoard.m in Sources */,
+				98D30E7416E042050090E006 /* Bee_DebugMessageModel.m in Sources */,
+				98D30E7516E042050090E006 /* Bee_DebugNetworkBoard.m in Sources */,
+				98D30E7616E042050090E006 /* Bee_DebugNetworkModel.m in Sources */,
+				98D30E7716E042050090E006 /* Bee_DebugPieView.m in Sources */,
+				98D30E7816E042050090E006 /* Bee_DebugPlotsView.m in Sources */,
+				98D30E7916E042050090E006 /* Bee_DebugSampleView.m in Sources */,
+				98D30E7A16E042050090E006 /* Bee_DebugSandboxBoard.m in Sources */,
+				98D30E7B16E042050090E006 /* Bee_DebugUtility.m in Sources */,
+				98D30E7C16E042050090E006 /* Bee_DebugViewBoard.m in Sources */,
+				98D30E7D16E042050090E006 /* Bee_DebugViewModel.m in Sources */,
+				98D30E7E16E042050090E006 /* Bee_DebugWindow.m in Sources */,
+				98D30E8516E042050090E006 /* Bee_Foundation.mm in Sources */,
+				98D30E8616E042050090E006 /* Bee_Log.mm in Sources */,
+				98D30E8716E042050090E006 /* Bee_Performance.mm in Sources */,
+				98D30E8816E042050090E006 /* Bee_Runtime.mm in Sources */,
+				98D30E8916E042050090E006 /* Bee_Sandbox.mm in Sources */,
+				98D30E8A16E042050090E006 /* Bee_Singleton.mm in Sources */,
+				98D30E8B16E042050090E006 /* Bee_SystemInfo.m in Sources */,
+				98D30E8C16E042050090E006 /* Bee_Thread.mm in Sources */,
+				98D30E8D16E042050090E006 /* NSArray+BeeExtension.m in Sources */,
+				98D30E8E16E042050090E006 /* NSData+BeeExtension.m in Sources */,
+				98D30E8F16E042050090E006 /* NSDate+BeeExtension.m in Sources */,
+				98D30E9016E042050090E006 /* NSDictionary+BeeExtension.m in Sources */,
+				98D30E9116E042050090E006 /* NSNumber+BeeExtension.m in Sources */,
+				98D30E9216E042050090E006 /* NSObject+BeeNotification.m in Sources */,
+				98D30E9316E042050090E006 /* NSObject+BeeProperty.m in Sources */,
+				98D30E9416E042050090E006 /* NSObject+BeeTicker.m in Sources */,
+				98D30E9516E042050090E006 /* NSObject+BeeTypeConversion.m in Sources */,
+				98D30E9616E042050090E006 /* NSString+BeeExtension.m in Sources */,
+				98D30E9716E042050090E006 /* Bee_Network.m in Sources */,
+				98D30E9816E042050090E006 /* Bee_Request.m in Sources */,
+				98D30E9916E042050090E006 /* Bee_RequestQueue.m in Sources */,
+				98D30E9A16E042050090E006 /* NSObject+BeeRequest.m in Sources */,
+				98D30E9B16E042050090E006 /* Bee_ActiveBase.m in Sources */,
+				98D30E9C16E042050090E006 /* Bee_ActiveRecord.m in Sources */,
+				98D30E9D16E042050090E006 /* Bee_Cache.m in Sources */,
+				98D30E9E16E042050090E006 /* Bee_Database.m in Sources */,
+				98D30E9F16E042050090E006 /* Bee_Keychain.m in Sources */,
+				98D30EA016E042050090E006 /* Bee_Storage.m in Sources */,
+				98D30EA116E042050090E006 /* NSObject+BeeDatabase.m in Sources */,
+				98D30EA216E042050090E006 /* NSObject+BeeKeychain.m in Sources */,
+				98D30EA316E042050090E006 /* Bee_Controller.mm in Sources */,
+				98D30EA416E042050090E006 /* Bee_Message.mm in Sources */,
+				98D30EA516E042050090E006 /* Bee_MessageQueue.mm in Sources */,
+				98D30EA616E042050090E006 /* BeeMessage+ActiveRecord.m in Sources */,
+				98D30EA716E042050090E006 /* BeeMessage+HTTP.mm in Sources */,
+				98D30EA816E042050090E006 /* BeeMessage+JSON.mm in Sources */,
+				98D30EA916E042050090E006 /* BeeMessage+XML.mm in Sources */,
+				98D30EAA16E042050090E006 /* NSObject+BeeMessage.mm in Sources */,
+				98D30EAB16E042050090E006 /* Bee_Model.m in Sources */,
+				98D30EAC16E042050090E006 /* Bee_UIActionSheet.m in Sources */,
+				98D30EAD16E042050090E006 /* Bee_UIActivityIndicatorView.m in Sources */,
+				98D30EAE16E042050090E006 /* Bee_UIAlertView.m in Sources */,
+				98D30EAF16E042050090E006 /* Bee_UIButton.m in Sources */,
+				98D30EB016E042050090E006 /* Bee_UIDatePicker.m in Sources */,
+				98D30EB116E042050090E006 /* Bee_UIGridCell.m in Sources */,
+				98D30EB216E042050090E006 /* Bee_UIImageView.m in Sources */,
+				98D30EB316E042050090E006 /* Bee_UIKeyboard.m in Sources */,
+				98D30EB416E042050090E006 /* Bee_UILabel.m in Sources */,
+				98D30EB516E042050090E006 /* Bee_UIOrientation.m in Sources */,
+				98D30EB616E042050090E006 /* Bee_UIPageControl.m in Sources */,
+				98D30EB716E042050090E006 /* Bee_UIProgressView.m in Sources */,
+				98D30EB816E042050090E006 /* Bee_UIPullLoader.m in Sources */,
+				98D30EB916E042050090E006 /* Bee_UIScrollView.m in Sources */,
+				98D30EBA16E042050090E006 /* Bee_UISegmentedControl.m in Sources */,
+				98D30EBB16E042050090E006 /* Bee_UISignal.m in Sources */,
+				98D30EBC16E042050090E006 /* Bee_UITabBar.m in Sources */,
+				98D30EBD16E042050090E006 /* Bee_UITextField.m in Sources */,
+				98D30EBE16E042050090E006 /* Bee_UITextView.m in Sources */,
+				98D30EBF16E042050090E006 /* Bee_UITipsView.m in Sources */,
+				98D30EC016E042050090E006 /* Bee_UIWebView.m in Sources */,
+				98D30EC116E042050090E006 /* Bee_UIZoomView.m in Sources */,
+				98D30EC216E042050090E006 /* Bee_View.m in Sources */,
+				98D30EC316E042050090E006 /* CGRect+BeeExtension.m in Sources */,
+				98D30EC416E042050090E006 /* UIColor+BeeExtension.m in Sources */,
+				98D30EC516E042050090E006 /* UIFont+BeeExtension.m in Sources */,
+				98D30EC616E042050090E006 /* UIImage+BeeExtension.m in Sources */,
+				98D30EC716E042050090E006 /* UIView+BeeExtension.m in Sources */,
+				98D30EC816E042050090E006 /* UIView+BeeUISignal.m in Sources */,
+				98D30EC916E042050090E006 /* UIView+HoldGesture.m in Sources */,
+				98D30ECA16E042050090E006 /* UIView+PanGesture.m in Sources */,
+				98D30ECB16E042050090E006 /* UIView+SwipeGesture.m in Sources */,
+				98D30ECC16E042050090E006 /* UIView+TapGesture.m in Sources */,
+				98D30ECD16E042050090E006 /* Bee_UIBoard.m in Sources */,
+				98D30ECE16E042050090E006 /* Bee_UIStack.m in Sources */,
+				98D30ECF16E042050090E006 /* Bee_UIStackGroup.m in Sources */,
+				98D30ED016E042050090E006 /* Bee_ViewController.m in Sources */,
+				98D30ED116E042050090E006 /* UIViewController+BeeExtension.m in Sources */,
+				98D30ED216E042050090E006 /* UIViewController+BeeUISignal.m in Sources */,
+				98D30ED316E042050090E006 /* UIViewController+UINavigationBar.m in Sources */,
+				98D30ED516E042050090E006 /* Bee_UICameraBoard.m in Sources */,
+				98D30ED616E042050090E006 /* Bee_UIFlowBoard.m in Sources */,
+				98D30ED716E042050090E006 /* Bee_UITableBoard.m in Sources */,
+				98D30ED816E042050090E006 /* Bee_UIWebBoard.m in Sources */,
+				98D30ED916E042050090E006 /* Bee_UnitTest.m in Sources */,
+				98D30F2416E042050090E006 /* ASIAuthenticationDialog.m in Sources */,
+				98D30F2516E042050090E006 /* ASIDataCompressor.m in Sources */,
+				98D30F2616E042050090E006 /* ASIDataDecompressor.m in Sources */,
+				98D30F2716E042050090E006 /* ASIDownloadCache.m in Sources */,
+				98D30F2816E042050090E006 /* ASIFormDataRequest.m in Sources */,
+				98D30F2916E042050090E006 /* ASIHTTPRequest.m in Sources */,
+				98D30F2A16E042050090E006 /* ASIInputStream.m in Sources */,
+				98D30F2B16E042050090E006 /* ASINetworkQueue.m in Sources */,
+				98D30F2C16E042050090E006 /* FMDatabase.m in Sources */,
+				98D30F2D16E042050090E006 /* FMDatabaseAdditions.m in Sources */,
+				98D30F2E16E042050090E006 /* FMDatabasePool.m in Sources */,
+				98D30F2F16E042050090E006 /* FMDatabaseQueue.m in Sources */,
+				98D30F3016E042050090E006 /* FMResultSet.m in Sources */,
+				98D30F3116E042050090E006 /* JSONKit.m in Sources */,
+				98D30F3216E042050090E006 /* Reachability.m in Sources */,
+				98D30F4416E043630090E006 /* GCurlPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +1297,7 @@
 				98D30CD416E0410E0090E006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
