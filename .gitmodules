@@ -1,0 +1,3 @@
+[submodule "bee"]
+	path = bee
+	url = https://github.com/gavinkwoe/BeeFramework.git
